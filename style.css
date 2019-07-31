@@ -1,0 +1,1170 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+	box-sizing:border;
+}
+body{
+	 font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #e8e2e2;
+    background-repeat: repeat;
+	background-size: contain;
+}
+   
+.fixed{
+    position: fixed;
+}
+.lefts{
+background-color: lightsteelblue;
+}
+/*/......slider and image slide show........../*/}
+/* NEW SLIDER*/
+
+
+/* NEW SLIDER*/
+
+/*......working with the nav-bar and social icons*/
+/*......working with the nav-bar and social icons*/
+/*......working with the nav-bar and social icons*/
+.social{
+  background-color:red;
+	width: 100%;
+    border-radius: 5px;
+    margin-right: 1px;
+    height: 10px;
+ 
+}
+
+.social li{
+    display: inline-block;
+    padding: 0.2px;
+    margin: 0.5px;
+/*    object-position: center;*/
+	height:20px;
+	
+    
+}
+
+.social img
+{
+    margin-top: -0px;
+    padding: 5px;
+	border-right-color:currentColor;
+	border-radius: 20px;
+	margin:1px;      
+}
+
+.social ul{
+    border-image-outset:10px;
+    text-align: right;
+    margin-right: 2px;
+}
+.social ul li:hover{
+  border-color: gainsboro;
+/*   border-top-style: groove; */
+    transform: scale(1.3);
+    
+}
+
+
+
+
+/*..............working with the nav*/
+/*..............working with the nav*/
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+	background-color:gainsboro;
+    
+}
+.fixed-nav-bar-give {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+/*  background-color: #00a087;*/
+  background-color:gainsboro;
+    
+}
+
+.show, .hide {
+  display: none;
+  padding-left: 15px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center left;
+  color: #dde1e2;
+}
+
+
+.show, .hide {  
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+
+
+
+/*..............working with the nav*/
+/*.............WORKING WITH THE NAV BAR.......................*/
+
+
+.menu-bar
+		   {
+			background: rgb(69,73,209);
+background: linear-gradient(90deg, rgba(69,73,209,1) 2%, rgba(5,161,193,1) 47%, rgba(21,90,162,1) 91%);
+		   }
+		   .menu-bar ul{
+			   display: inline-flex;
+			   list-style: none;
+/*			   color: white;*/
+		   }
+		   .menu-bar ul li  {
+			   width: 100%px;
+			   margin: 15px;
+			   padding:15px;
+			   
+		   }
+		   .menu-bar ul li a{
+			   text-decoration: none;
+			   color: white;
+			   font-size: 13px;
+			  
+		   }
+		   .active1, .menu-bar ul li:hover
+       {
+			   
+			   background-color: rgba(23,34,0,0.2);
+/*			   border-radius: 20px;*/
+		   border-color: gainsboro;
+/*   border-top-style: groove; */
+        transform: scale(1);
+    
+		   }
+		   
+/*		   dropdown*/
+		   .sub-menu{
+			   display: none;
+			   width: auto;
+			   background-color: whitesmoke;
+		   }
+		   .menu-bar ul li:hover .sub-menu{
+			   display: block;
+			   position: absolute;
+			   background-color: white;
+			   margin-top: 17px;
+			   margin-left:-15px;
+/*			   align-items: left;*/
+			   color: black;
+		   }
+.menu-bar ul li:hover .sub-menu ul{
+			   display: block;
+			   margin: -12px;
+	           padding:0;
+
+		   }
+          .sub-menu ul li a{
+			  color: black;
+			  padding-left:0;
+			  font-size: 17px;
+			  font-family: cursive;
+			  }
+		   .menu-bar ul li:hover .sub-menu ul li
+		     {
+			   width: 150px;
+			   padding: 6px;
+			   border-bottom: 1px dotted #DAA520;
+			   background: transparent;
+			   border-radius: 0;
+			   text-align:left;
+				
+			   
+		   }
+		   .menu-bar ul li:hover .sub-menu ul li:last-child{
+			   border-bottom: none;
+		   }
+		   .menu-bar ul li:hover .sub-menu ul li a:hover{
+			   color: gold;
+		   }
+
+
+/*looooooogoooooo*/
+.logo{
+     background-color: rgba(102,255,0,0.);
+    min-width: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.logo img 
+{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 6px;
+    color: black;
+    column-width: 443px;
+    overflow: hidden;
+    background-color: rgba(102,255,0,0.);
+}
+p .logo p{
+  padding:20px;
+/*    cursor: progress;*/
+    user-select: none;
+    margin: 3px;
+    padding-right:4px;
+    border-bottom-width: 200px;
+    border-radius:30px ;
+/*    column-width: 443px;*/
+    font-size:12px;
+    overflow: hidden;
+    background-color: rgba(0,0,51,0.8);
+   
+    
+   
+}
+.logo p a{
+    text-decoration: none;
+    color: white;
+}
+/*
+.logo p:hover{
+    color: greenyellow;
+     transform: scaleY(1.1)
+    
+}
+*/
+.logo img:hover{
+    color: deeppink;
+     transform: scalex(1.1);
+    
+}
+
+/*working with the grids*/
+/* ***********************************Slideshow container ...............*/
+
+.slider {
+	width: 1220px;
+	height: 480px;
+	background-color: lawngreen;
+	padding-top: 129px;
+	margin-top: 10px;
+	
+}
+.slider img{
+	width: 1220px;
+	height: 480px
+}
+
+    /*******************************88slider end...................*/
+
+
+/*8 grid layout*//*8 grid layout*/
+/*
+.Grids{
+   background-image:url(images/bg/maxresdefault.jpg);
+   background-attachment: scroll;
+  background-position: center;
+    background-repeat: no-repeat;
+	padding-top: -400px
+}
+*/
+
+/*
+.color{
+    background-color: black;
+}
+*/
+.white{
+	background-color: white;
+	width: 1220px;
+	height: 27px;
+	border-top-style: solid;
+	border-top-color: white;
+}
+
+.container{
+    width: 1220px;
+   height:380px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	background-color:cadetblue;
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 190px;
+/*    background: #ff0;*/
+/*    margin: 4px;*/
+    box-sizing: border-box;
+    display: inline-block;
+   border-radius:20px;
+    
+    
+}
+.container .box .boximg{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 10px;   
+}
+
+.container .box .boximg img{
+    transition: transform 2s;
+    width: 100%;
+    height: 165px;
+	object-fit: -contain;
+     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+/*    width: 300px;*/
+    
+    
+}
+.container .box:hover .boximg img{
+    transform: scale(1.1)
+}
+.container .box .details
+{
+    margin: auto;
+   position: absolute;
+    top: 88px;
+    left: 9.8px;
+    right: 5px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .1s;
+}
+.container .box:hover .details
+{
+   transform: scaleY(1); 
+}
+.container .box .details .content
+{
+ position: absolute;
+/*     margin:px;*/
+    background-color: rgba(0,0,51,0.9);
+    width: 279px;
+    height: 90px;
+    padding: 2px;
+    border-radius: 5px;
+    
+   
+}
+.container .box .details .content h2 ,h4{
+    text-align: center;
+/*    border-bottom: 10px;*/
+/*    border-bottom-style: double;*/
+/*    border-width: 4px*/
+    color: white;
+}
+.container .box .details .content p
+{
+text-align: right;
+padding-left: 10px;
+margin: 5px;
+}
+.content a {
+	text-decoration: none;
+}
+
+/*/*8 grid layout*//*8 grid layout*/ ENDS*/
+/*/*8 grid layout*//*8 grid layout*/ ENDS*/
+
+
+/*COMMENT SECTION WITH BLACK BG*/
+/*COMMENT SECTION WITH BLACK BG*/
+.comments
+{
+background-color: rgba(17,17,17,0.9);
+    width: 100%;
+    height: 60px;
+    border-color: white;
+    
+}
+
+
+
+
+
+
+
+/*commemmts*/
+
+
+
+.wrapper{
+/*  position: absolute;*/
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+    background-color: black;
+    text-align: left;
+	resize: none;
+}
+ 
+.contact-form{
+  display: flex;
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+/*  padding: 30px;*/
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+ 
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+    user-select: none;
+}
+ 
+.input-fields,
+.msg{
+  width: 48%;
+}
+ 
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+/*  padding: 10px;*/
+  color: #c5ecfd;
+  width: 100%;
+}
+ 
+.msg textarea{
+  height: 200px;
+}
+ 
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #c5ecfd;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c5ecfd;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #c5ecfd;
+}
+ 
+.btn {
+    background: #39b7dd;
+    text-align: center;
+/*    padding: 15px;*/
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+ 
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}
+
+/*info section*/
+
+/*info section*/
+.info
+{
+    width: 100%;
+    background-color: indigo;
+    display:subgrid;  
+}
+.about .head ul
+{
+/*  color: greenyellow;*/
+  width: 100px;
+ text-align: left;
+    
+}
+. boxes1 .about ul li
+
+{
+ color: white;
+    font-family: inherit;
+    text-decoration: none;
+    text-decoration: none;
+   list-style-image: none;
+    text-align: left;
+    
+}
+.about ul .head li
+{
+/*    color: greenyellow;*/
+    font-family: cursive;
+    list-style: none;
+    z-index: 10;
+    text-align: left;
+    
+}
+
+.info .about ul .head li
+{
+    color: greenyellow;
+   
+}
+.about ul .head li img{
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+}
+.about ul .head li img li
+{
+ padding-left: 10px;   
+}
+/*...........................!!!!!!!!!!!!!!!!!!............*/
+
+.row-fluid{
+background-image:url(\Users\Immanuel\Desktop/item6.jpg);
+}
+button{
+    font-family: all;
+ 
+}
+.width input
+{
+	width: 300px;
+	margin: 10px
+}
+.box3 input
+{
+	margin: 1px;
+	padding: 3px;
+	margin-top: 10px;
+}
+#box1{
+	margin: 10px
+}
+  /*..................SOCIAL PLUGINS.................*/
+.socialpage{
+	
+/*
+	width: 1200px;
+    height:360px;
+    font-family: sans-serif;
+    margin:-1px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   margin: 10px;
+   background: rgba(0,0,51,1);*/
+  
+*/
+   display: inline-grid;
+	align-items: center;
+/*	padding-left: 70px;*/
+	background-color:oldlace;
+	width: 1220px;
+	box-shadow: 10px solid #fefe;
+	
+}
+.socialpage .page
+{
+	position: relative;
+    width: 530px;
+    height: 490px;
+/*    background: #f9f;*/
+	margin: 10px;
+	display: inline-grid;
+	object-position: center;
+	margin-top: 14px;
+	padding-right: 44px;
+	margin-bottom: 38px;
+	   
+}
+.heading ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left:179px;
+	font-size: 49px;
+	font-family: cursive;
+	text-align: center;
+	margin: 
+}
+/.............*br...............*/
+.line{
+	width:100%;
+	height: 10px;
+		background-color: white;
+}
+.line img {
+	width: 100%;
+	height: 10px;
+
+}
+/*<!--    ..............FOOTER FOOTER INFORMATION...................    -->*/
+footer{
+	width:100%;
+	height: 300px;
+	background-color:black;
+	
+	
+}
+#width
+{
+	width: 1220px;
+	height: 160px;
+	background-color: white;
+	display: inline-flex;
+	margin-left:64px;
+	margin-top: 20px;
+	border-bottom-style: double;
+	border-bottom-color: black;
+	border-bottom-width: thick;
+	border-top-color: black;
+	border-top-style: double;
+
+}
+.left
+{
+	text-align: left;
+	color: greenyellow;color:
+	font-family: serif;
+	font-size-adjust: auto;
+	font-size: 20px;
+	user-select: none;	
+}
+.left1 img{
+	margin-right: 7px;
+	width: 20px;
+	height:20px
+}
+.left1{
+	text-align: center;
+	color: greenyellow;
+	font-family: serif;
+	font-size-adjust: auto;
+	font-size: 20px
+}
+.footerbox{
+/*	background-color: red;*/
+	width: 270px;
+	text-align: left;
+	padding: 10px;
+	margin:7px;
+	padding-left: 30px;
+	color: gray;
+	font-family: serif;
+}
+.footerbox p
+{
+	font-size:16px;
+	cursor: pointer;
+	user-select: none;
+}
+.box2{
+    background-color: white;
+	width: 270px;
+	text-align: left;
+	padding: 10px;
+	margin:5px;
+	color: black;
+	font-family: sans-serif;
+	display: inline-block;
+		
+}
+.box2 ul li 
+{
+	display: inline-flex;
+	margin-left: 0x;
+	padding: 0;
+	text-align: left;
+	padding:3.3px 	
+}
+
+box2 ul li img{
+	width: 15px;
+	height: auto;
+}
+
+.footerbox,.box2 {
+	float: left;
+	clear: left;
+	
+}
+
+	
+/*...............END INFOR..........*/
+.developer
+{
+	top: 50px;
+	background-color: black;
+	height: 120px;
+	width: 100%;
+	position: relative;
+	border-bottom: 10
+}
+.developer p{
+	color: gold
+}
+.footer{
+	position: absolute;
+	top:30%;
+	left: auto
+	text-align: center;
+	width: 100%;
+}
+.footer p{
+	color: gold;
+}
+.developer span
+{
+padding-left: 34%;
+color: white;
+}
+.developer span a
+{
+color: white;
+	margin: 
+}
+.developer span a{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0;
+	color: greenyellow;
+	text-decoration: none;
+}
+.developer span a:hover
+{
+	color: white;
+	border-radius: 50px;
+}
+.img
+{
+width: 130px;
+height: 80px;
+}
+/*.............FOOTER DEV INFORMATION.....................*/
+
+/*#######################GIVE TAB###################################*/
+/*##################GIVE NAV BAR#######################*/
+.fixed-nav-bar-give {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height:auto;
+/*  background-color: #00a087;*/
+  background-color:black;
+    
+}
+.menu-bar
+		   {
+			   background-color: rgba(0,235,92,0.5);
+			   text-align: center;
+			  
+		   }
+body.givemain{
+	background-color: hotpink;
+
+}
+.payment{
+	position: relative;
+	text-align: center;
+	height: 75%;
+	padding-top: 120px;
+	background-color: black;
+	background-image: url(images/give/give.jpg);
+	background-position: center;
+	background-size: cover;
+	background-origin: content-box;
+	image-resolution: snap;
+
+	
+}
+.pay{
+	width: 45%;
+	position: relative;
+	height: 80%;
+	background-color:rgba(225,235,220,0.5);
+    left:25%;
+	top: 14%
+}
+form h1
+{
+	color: white;
+	margin: 1%;
+	padding: 2%;
+	font-family: monospace;
+	font-size: 40px;
+	
+}
+.fname{
+	position: relative;
+	right:100;
+	
+}
+/*
+.sname{
+	position: relative;
+	left: 70;
+	bottom: 10.4
+}
+*/
+/*
+.email
+{
+position: relative;
+right: 100;
+
+	
+}
+*/
+/*
+.phone
+{
+	position: relative;
+	left: 140;
+	bottom: 20.4;
+	
+	
+	
+}
+*/
+/*
+.dropdown{
+	position: relative;
+    right: 230;
+    
+		
+		
+		
+}
+.ffruit{
+	position: relative;
+	left: 140;
+	bottom: 20;
+	
+	
+	
+	
+}
+*/
+/*
+.dropdown1{
+	background: hotpink;
+	
+}
+*/
+/*
+.submmit{
+	background-color: red;
+}
+*/
+/*###################subscribe#############################*/
+#subscribe{
+	width: 100%;
+	height: 100%;
+	background-color: paleturquoise;
+	background-image: url(images/give/banner.png);
+	background-attachment: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	opacity: 0.9;
+	background-size: cover;
+	
+	
+}
+.givesub{
+	position: relative;
+	text-align: center;
+	padding: 170px;
+	top: 90;
+	
+	
+	
+}
+.givesub form input
+{
+position: relative;
+right: 8%;
+width: 34%;
+height: 48px;
+border-radius: 30px;
+outline: none;
+color: black;
+text-align: center;
+font-family: cursive;
+outline-color: red;
+font-size: 19;
+	
+	
+	
+}
+
+#sub input {
+	position: relative;
+	width: 20%;
+	background:green;
+	color: white;
+	top: -47;
+	left: 12em;
+	outline: none;
+	resize: none
+
+	
+}
+
+.stayinf{
+	color: white;
+	font-size: 40px;
+	margin: 10px
+}
+
+.stayinf1{
+	color: white;
+	font-size: 18px;
+	margin: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+#subscribex{
+	width: 100%;
+	height: 70%;
+	background-color: hotpink;
+	
+}
+/*##################working with features###########################*/
+#subscribes{
+	width: 100%;
+	height:45%;
+	background-color: rgba(0,239,0,0.5);
+	display: inline-grid;
+	padding-bottom: 38px;
+	
+
+}
+.feature
+{
+color: white;
+font-family: inherit;
+position: relative;
+bottom: 266;
+right: 466;
+border-bottom-style:double;
+border-bottom-color: black;
+border-bottom-width: thick;
+	
+}
+
+#subscribes ul{
+	text-dcoration: none;
+	color: white;
+	
+	
+}
+#subscribes ul li{
+	display: inline-block;
+	text-decoration: none;
+	width: 30%;
+	height: 50%;
+/*
+	width: 360px;
+	height: 250px;
+*/
+	font-size:19;
+	margin: 10px;
+	padding:10px;
+}
+#subscribes ul li h3{
+	font-size: 30px;
+	color: white;
+	position: relative;
+	bottom: 30;	
+	
+}
+
+#subscribes ul li h2{
+	font-size: 30px;
+	color: white;
+	position: relative;
+	bottom: 29
+	
+}
+
+/*##################feature######################*/
+#subscribes .headings{
+	font-family:sans-serif;
+	font-size: 40px;
+	color: white;
+	position: relative;
+	top: -180;
+	right: 40%
+}
+#subscribes .tithe{
+	background-color: red;
+	width: 40px;
+	height: 40px;
+
+	
+	
+}
+#subscribes .donation{
+	background-color: hotpink;
+	width: 40px;
+	height: 40px;
+	
+	
+}
+
+#subscribes .offerings{
+	background-color: orange;
+	width: 40px;
+	height: 40px;
+	
+	
+}
+
+
+
+
+
+
+/*##########################################################*/
+
+/*###################GIVE END###################################*/
+
+/*###############YOUTUBE live streaming############################################# */
+.youtube {
+	position: relative;
+	width: 90%;
+	text-align: center;
+	min-height: 100%;
+	padding-bottom: 100px;
+	padding-top: 120px;
+	box-shadow: 1px solid#fefe'';
+	background-color: red
+	
+}
+.stream iframe
+{
+	width: 90%;
+	height: 60%;
+	position: relative;
+	margin: 21px;
+	border-bottom-color: greenyellow;
+	border-bottom-style: solid;
+	border-bottom-width: thick
+}
+
+
+.youfacebook{
+	width: 80%;
+	text-align: center;
+	height: 5%;
+	background-color: white;
+	position: relative;
+	top:-18
+}
+.youfacebook h3{
+	color: red;
+	font-size: 30px;
+	
+}
+.sticon{
+	display: inline-block;
+/*	height: 50px;*/
+	width: 80%;
+	height: 300px;
+	
+	
+}
+.sticon ul img{
+	width: 100px
+	
+	
+}
+.youfacebook img{
+	width: 10%;
+	margin-left: 160px;
+	padding-top: 12px;
+	position:relative;
+	top: -30;
+}
+.youfacebook ul li{
+	display: inline-block;
+	align-items: center;
+	font-size: 20px;
+	margin-left: 124px;
+	padding: 1px;
+	padding-bottom: 3px;
+}
+.youfacebook ul li a{
+	text-decoration: none;
+
+}
+
+
+/*############################################################*/
+/*##########################GALLERY SECTION#################################*/
+body.gallery
+{
+	 font-family: "Open sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #e8e2e2;
+    background-repeat: repeat;
+	background-size: contain;
+}
+.gallery{
+	margin: 10px 50px;
+	min-height: 100%;
+	display: inline-grid;
+	padding-top: 6%;
+}
+.gallery img{
+	width: 200px;
+}
+.subgallery img{
+	display: none;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+}
+gallery img:hover.subgallery img{
+	transition: 1s;
+}
+
+
